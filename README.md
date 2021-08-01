@@ -2,7 +2,7 @@
 The data analytics team at AutosRUs is responsible for performing retrospective analysis of historical data, analytical validation and verification of current automotive specifications, and study design of future product testing. For this project, we used the R programming language to gather summary statistics for different variables and visualizations for different datasets. Once all the data is analyzed, we will provide our interpretation of the statistical test results. We also provided our own study design on how the AutosRUs manufacturing process could be more efficient.
 
 ## Linear Regression to Predict MPG
-MechaCar_mpg is a dataset of 50 car prototypes that the team used to identify ideal vehicle MPG performance based on the following metrics: vehicle length, vehicle weight, spoiler angle, ground clearance, and enabled AWD. A multiple linear regression model was used to predict which of these metrics (if any) had the most impact on vehicle MPG. 
+"MechaCar_mpg.csv" is a dataset of 50 car prototypes that the team used to identify ideal vehicle MPG performance based on the following metrics: vehicle length, vehicle weight, spoiler angle, ground clearance, and enabled AWD. A multiple linear regression model was used to predict which of these metrics (if any) had the most impact on vehicle MPG. 
 
 ### Summary
 ![Image of MPG Regression](https://github.com/jpb12002/MechaCar_Statistical_Analysis/blob/main/Images/MPG%20Linear%20Regression.png)
@@ -15,3 +15,13 @@ MechaCar_mpg is a dataset of 50 car prototypes that the team used to identify id
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
   - This linear model does effectively predict MPG of MechaCar protoypes based on two summary statistics. First, there are two variable with p-values < 0.05, which means there is significant evidence to reject the null hypothesis. Second, the multiple r-squared value is 0.71, which means there is a strong correlation between the measured variables and vehicle MPG performance. 
+
+## Summary Statistics on Suspension Coils
+"Suspension_Coil.csv" is a dataset containing results from multiple manufacturing lots. Weight capacities of the suspension coils were tested to determine if quality control across manufacturing lots is consistent.
+
+### Summary
+![Image of Total Summary](https://github.com/jpb12002/MechaCar_Statistical_Analysis/blob/main/Images/Total_Summary.png)
+![Image of Lot Summary](https://github.com/jpb12002/MechaCar_Statistical_Analysis/blob/main/Images/Lot_Summary.png)
+
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+  - All manufacturing lots in total are within normal variance for the suspension coils, as seen in the "Total Summary" dataframe (variance = 62.29). The "Lot Summary" dataframe shows Lot 1 and Lot 2 individually meet the design specifications for suspension coils, with a variance of 0.98 and 7.47 respectively. However, Lot 3 is outside of the design tolerance with a variance of 170.29.
