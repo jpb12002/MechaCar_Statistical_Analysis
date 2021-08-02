@@ -57,4 +57,5 @@ The hypotheses were:
 Consumers are more energy conscious than ever, and the data analytics team wants to investigate whether MechaCar has more fuel efficient cars compared to the competition, AverageCar. We will study the highway fuel efficiency of MechaCar's lineup to see if the mean MPG of our cars is higher or lower than AverageCar's lineup. Our hypotheses are:
 - H0: There is no statistical difference between the mean MPG of MechaCar's vehicles and the mean MPG of AverageCar's vehicles
 - Ha: The mean MPG of MechaCar's vehicles is statistically different from the mean MPG of AverageCar's vehicles
+
 A Two-Sample t-Test would be used to test the hypothesis since we are interested in comparing the distribution means from two different samples. We are not comparing the average vehicle MPG from either company to a constant value (e.g., 28 MPG), which would require a One-Sample t-Test. The data needed to run the test would be the mean MPG for all vehicle types at MechaCar as well as the mean MPG for all vehicle types at AverageCar. 
