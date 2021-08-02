@@ -32,3 +32,23 @@ Performed one-sample t-test on all manufacturing lots as well as each individual
 The hypotheses were:
 - H0: There is no statistical difference between the observed sample mean and its presumed population mean
 - H1: The observed sample mean is statistically different from the presumed population mean
+
+### T-Test on All Manufacturing Lots
+![Image of t-test total](https://github.com/jpb12002/MechaCar_Statistical_Analysis/blob/main/Images/t-test%20total.png)
+- p-value = 0.06 > 0.05
+- Insufficient evidence to reject the null hypothesis
+
+### T-Test on Lot 1
+![Image of t-test lot 1](https://github.com/jpb12002/MechaCar_Statistical_Analysis/blob/main/Images/t-test%20Lot%201.png)
+- p-value = 1.0 >0.05
+- Insufficient evidence to reject the null hypothesis
+
+### T-Test on Lot 2
+![Image of t-test lot 2](https://github.com/jpb12002/MechaCar_Statistical_Analysis/blob/main/Images/t-test%20Lot%202.png)
+- p-value = 0.61 > 0.05
+- Insufficient evidence to reject the null hypothesis
+
+### T-Test on Lot 3
+![Image of t-test lot 3](https://github.com/jpb12002/MechaCar_Statistical_Analysis/blob/main/Images/t-test%20Lot%203.png)
+- p-value = 0.04 < 0.05
+- Null hypothesis is rejected, Lot 3 sample data is statistically different from the population mean
